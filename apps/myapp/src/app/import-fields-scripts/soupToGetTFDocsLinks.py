@@ -13,6 +13,11 @@ docsLinksFileNameParsed = "tfDocsLinksParsed.txt"
 resourcesOutputFile = "resourcesOutputFile3.json"
 objectToExport = []
 
+def getProviders(configFilePath):
+    configFile = open(configFilePath)
+    settings = json.loads(configFilePath)
+
+
 
 # todo get all the sidebar resources links to go through
 def getAllLinks():

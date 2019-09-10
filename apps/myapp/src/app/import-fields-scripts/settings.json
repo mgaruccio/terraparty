@@ -1,0 +1,23 @@
+{
+    "providers": [
+        {
+            "name": "aws",
+            "url": "https://www.terraform.io/docs/providers/aws/index.html",
+            "valid_doc_string": "/docs/providers/aws/",
+            "doc_types": {
+                "/docs/providers/aws/r/": "awsResource",
+                "/docs/providers/aws/d/": "awsDataSource"
+            }
+        },
+        {
+            "name": "vcd",
+            "url": "https://www.terraform.io/docs/providers/vcd/index.html",
+            "valid_doc_string": "/docs/provicers/vcd/",
+            "doc_types": {
+                "/docs/providers/vcd/r": "vcdResource",
+                "/docs/providers/vcd/d": "vcdDataSource"
+            }
+        }
+    ],
+    "base_url": "https://www.terraform.io"
+}
